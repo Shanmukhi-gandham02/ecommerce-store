@@ -49,8 +49,10 @@ const ProductDetails = () => {
       text: reviewUserMsg,
       rating,
     };
-
-    toast.success('Review submitted!');
+    
+    if(reviewObj){
+      toast.success('Review submitted!');
+    }
   }
 
   const addToCart = () =>{

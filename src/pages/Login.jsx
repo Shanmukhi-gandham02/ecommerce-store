@@ -25,8 +25,11 @@ const Login = () => {
 
       const user = userCredential.user;
 
+      if(user){
+        toast.success('Successfully logged in');
+      }
+    
       setLoading(false);
-      toast.success('Successfully logged in');
       navigate('/checkout');
       
     } catch (error) {
