@@ -59,6 +59,7 @@ const Signup = () => {
     } catch (error) {
       setLoading(false);
       toast.error('something went wrong');
+      console.log(error);
     }
   }
 
@@ -96,7 +97,7 @@ const Signup = () => {
                 <FormGroup className='form__group'>
                   <input 
                     type="password" 
-                    placeholder='Password'
+                    placeholder='Password(atleast 8 chracters)'
                     value={password} 
                     onChange={e=> setPassword(e.target.value)} 
                   />
