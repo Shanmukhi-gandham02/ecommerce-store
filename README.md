@@ -14,7 +14,7 @@ Deployed link : (https://shopnest-app.netlify.app)
 1. Clone this repository to your local machine:
   
    ```bash
-   git clone https://github.com/yourusername/shopNest-app.git
+   git clone https://github.com/Shanmukhi-gandham02/shopNest-app.git
 
 2. Navigate to the project folder:
 
